@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/inicio.css">
+  <title>Ventas</title>
+</head>
+
+<body>
+  <div class="menu">
+    <div style="text-align: center;">
+      <p>Autolavado</p>
+    </div>
+    <a href="/inicio.html"><img class="icon" src="img/casa.png"> Inicio</a>
+    <a href="/Clientes.html">Clientes <img class="icon" src="img/humano.png"></a>
+    <a href="/Servicios.html">Servicios <img class="icon" src="img/apoyo-tecnico.png"></a>
+    <a href="/Trabajadores.html">Trabajadores <img class="icon" src="img/trabajo-en-equipo.png"></a>
+    <a class="active" href="/Ventas.html">Ventas <img class="icon" src="img/ventas.png"></a>
+    <a href="/index.html">Salir <img class="icon" src="img/cerrar-sesion.png"></a>
+  </div>
+
+  <div class=" contenido ">
+    <h1 style="text-align: center; padding: 30px 0 0 0; font-size: 40px;">Registro de Ventas</h1>
+    <br>
+    <div class="formVentas">
+      <form>
+        <select class="datoIn11" id="trabaja" name="Trabajo">
+          <option style="font-size: 24px; width: 20%;" value="Cajero">Dabo</option>
+          <option style="font-size: 24px;  width: 20%;" value="Lavador">C-Kan</option>
+          <option style="font-size: 24px;  width: 20%;" value="McDavo">McDavo</option>
+          <option style="font-size: 24px;  width: 20%;" value="MiaKhalifa">MiaKhalifa</option>
+        </select>
+        <select class="datoIn11" id="servicioTipo" name="ServicioTipo">
+          <option style="font-size: 24px; width: 20%;" value="Lavcerado">Lavado y Acerado</option>
+          <option style="font-size: 24px;  width: 20%;" value="LavAlfo">Lavado de Alfombras</option>
+          <option style="font-size: 24px;  width: 20%;" value="LavVidri">Lavado de vidrios</option>
+        </select>
+        <input type="password" class="datoIn11" name="matricula" id="matricu" placeholder="Matricula">
+
+        <input class="btnRegistro" type="submit" value="Agregar Servicio">
+      </form>
+
+      <br><br><br><br><br><br><br><br>
+      <div class="tablaVentas " id="ServicioNota">
+        <p style="font-size: 32px;">Vehiculo Marca Nissan 4 Cilindros, Color Negro</p>
+        <p>Lavado de Alfombras          $250.00</p>
+        <p>Lavado de Exterior            $70.00</p>
+        <p>Lavado de Aceite              $50.00</p>
+        <hr>
+        <h2>Total: $370.00</h2>
+        <h3>Realiza el servicio: Crystian Suarez</h3>
+      </div>
+      <div class="formVentas1" >
+        <br>
+        <table class="datostabla">
+            <thead>
+            <tr>
+                <th>Lavado de Vehiculo</th>
+                <th>Costo</th>
+                <th class="columnEditDelet">Eliminar</th>
+            </tr>
+        </thead>
+            <tr>
+                <td>DefaUlt</td>
+                <td>DefaUlt</td>
+                
+                <td ><img class="imgEditDeletTable" src="img/borrador.png" alt=""></td>    
+            </tr>
+            <tr>
+                <td>DefaUlt</td>
+                <td>DefaUlt</td>
+                <td ><img class="imgEditDeletTable" src="img/borrador.png" alt=""></td>     
+            </tr>
+            <tr>
+                <td>DefaUlt</td>
+                <td>DefaUlt</td>
+                <td ><img class="imgEditDeletTable" src="img/borrador.png" alt=""></td>  
+            </tr>
+            <tr>
+                <td>DefaUlt</td>
+                <td>DefaUlt</td>
+                <td ><img class="imgEditDeletTable" src="img/borrador.png" alt=""></td>    
+            </tr>
+        </table>
+        <p style="font-size: 26px;">Total a Pagar: 700 Dollars</p>
+        
+    </div>
+    <input class="btnRegistro" style="float:inline-end;" type="submit" value="Finalizar Venta Servicio">
+    
+    
+    
+  </div>
+</body>
+
+</html>

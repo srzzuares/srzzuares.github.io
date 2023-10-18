@@ -1,41 +1,152 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/index.css">
-  <title>SpckEditor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>CsSuar V1</title>
 </head>
-
 <body>
-
-<div class="contenedor">
-  <section>  
-  <form action="inicio.html">
-    <br>
-    <h2>SpckEditor</h2>
-    <br><br>
-    <input class="inContenedor"  id="user" type="email" placeholder="Correo">
+    <header class="header">
+        <a href="#" class="logotipo">Portafolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active" id="">Inicio</a>
+            <a href="#about" class="" id="">Sobre Mi</a>
+            <a href="#services" class="" id="">Servicios</a>
+            <a href="#portafolio" class="" id="">Portafolio</a>
+            <a href="#contact" class="" id="">Contacto</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>¡Hola!, Soy</h3>
+            <h1>Crystian Suarez</h1>
+            <h3>Soy <span class="multiple-text"></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem debitis iste, accusamus deleniti dolorum officiis ad blanditiis, alias commodi modi repudiandae neque assumenda earum iure, tempora harum sunt explicabo voluptas!</p>
+            <div class="media-social">
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-github' ></i></a>
+                <a href=""><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="" class="btn">Descarga CV</a>
+        </div>
+        
+        <div class="home-img">
+            <img src="" alt="">
+        </div>
+    </section>
     
-    <br><br>
-    <input  class="inContenedor" id="pass"  type="password" placeholder="Contraseña">
-    <br><br>
+    <!--  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">Sobre Mi... <span>Soy</span></h2>
+            <h3>Desarrollador Backend</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quia magni amet quod, ex accusamus, blanditiis ipsa sapiente iste aspernatur commodi, nulla officia deleniti dolores quaerat quae praesentium similique debitis.</p>
+            <a href="" class="btn">Leer Mas...</a>
+        </div>
+    </section>
+
+    <!--  -->
+    <section class="services" id="services">
+        <h2 class="heading">Servicios</h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Desarrolo Web</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eos, nobis id aliquid non tenetur, nam hic iste itaque placeat dolorem possimus velit! Officiis reiciendis amet, vitae debitis ullam ut?</p>
+                <a href="" class="btn">Leer Mas...</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-flutter'></i>
+                <h3>Desarrolo en Aplicaciones Flutter</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eos, nobis id aliquid non tenetur, nam hic iste itaque placeat dolorem possimus velit! Officiis reiciendis amet, vitae debitis ullam ut?</p>
+                <a href="" class="btn">Leer Mas...</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-codepen'></i>
+                <h3>Autocad</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eos, nobis id aliquid non tenetur, nam hic iste itaque placeat dolorem possimus velit! Officiis reiciendis amet, vitae debitis ullam ut?</p>
+                <a href="" class="btn">Leer Mas...</a>
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <section class="portafolio" id="portafolio">
+        <h2 class="heading"><span>Proyectos</span> Anteriores</h2>
+
+        <div class="portafolio-container">
+            <div class="portafolio-box">
+                <img src="assets/img/3.jpg" alt="">
+                <div class="portafolio-layer">
+                    <h4>Diseño Web</h4>
+                    <p>Loremmm</p>
+                    <a href=""><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+
+            <div class="portafolio-box">
+                <img src="assets/img/5.jpg" alt="">
+                <div class="portafolio-layer">
+                    <h4>Aplicaciones Flutter</h4>
+                    <p>Loremmm</p>
+                    <a href=""><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+                
+            <div class="portafolio-box">
+                <img src="assets/img/6.jpg" alt="">
+                <div class="portafolio-layer">
+                    <h4>Autocad</h4>
+                    <p>Loremmm</p>
+                    <a href=""><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+            
+            <div class="portafolio-box">
+                <img src="assets/img/8.jpg" alt="">
+                <div class="portafolio-layer">
+                    <h4>Diseño Aplicaciones</h4>
+                    <p>Loremmm</p>
+                    <a href=""><i class='bx bx-link-external' ></i></a>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contacta por un mensaje</h2>
+        <form action="">
+            <div class="input-box">
+                <input type="text" placeholder="Nombre">
+                <input type="email" name="" id="" placeholder="Correo">
+            </div>
+            <div class="input-box">
+                <input type="tel" name="" placeholder="Numero Telefonico" id="">
+                
+            </div>
+            <textarea name="" placeholder="Deja tu Mensaje..." id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </form>
+    </section>
     
-    <button class="btnEter" type="submit" id="btnEnter">Enter</button>
-    
-    <br><br>
-    <a href="index2.html">No Recuerda Contraseña. ¡Click Aqui!</a>
-   <br> <a href="inicio.html">Ir a Inicio, ¡Click Aqui!</a>
-   <br> <a href="Servicios.html">Ir a Servicios, ¡Click Aqui!</a>
-  </form>
-</section>
-
-</div>
-
-
-<source src="js/index.js" type="text/js">
-
+    <footer class="footer">
+        <div class="footerText">
+            <p>CsSuar $copy; 2023</p>
+        </div>
+        <div class="footerIcon"><a href="#home"><i class='bx bx-chevrons-up' ></i></a></div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="js/script.js"></script>
 </body>
-
 </html>
+
+    
